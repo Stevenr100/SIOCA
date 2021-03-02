@@ -1,0 +1,493 @@
+body{
+	margin: 0px;
+	line-height: 1.5;
+	font-family: 'Lato', sans-serif;
+}
+
+header{
+	margin-top: 0px;
+	position: fixed;
+	top:0px;
+	left: 0;
+	background:#338DFF;
+	transition: transform .3s ease-in-out;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+h3{
+	font-size: 15px;
+	color: #338DFf;
+}
+
+
+
+
+
+
+.titulosh2{
+	width: 30%;
+	margin:auto;
+	padding: 2px;
+	border-bottom: 4px solid black
+}
+
+
+
+.contenh{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+
+}
+
+.navegacion a{
+	text-decoration: none;
+	color: black;
+	margin-right: 21px;
+	font-size: 16px;
+}
+
+
+
+
+
+.navegacion1 a{
+	text-decoration: none;
+	color: white;
+	margin-right: 21px;
+	font-size: 16px;
+}
+
+
+
+.navegacion a:hover{
+	color:whitesmoke;
+	
+}
+
+
+
+.logo {
+	margin: 8px;
+	width: 7%;
+	height: 5%;
+	border:3px solid #338DFF;
+
+}
+
+.secimg img{
+	width: 350px;
+	height: 350px;
+	margin-top: 100px;
+	border:2px solid black;
+}
+.institucion{
+	width: 100%;
+	height: 30%;
+}
+
+.contmain{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 30px;
+}
+
+
+.artimain{
+	width: 25%;
+	margin: auto;
+
+}
+
+.contimgmain{
+	width: 70px;
+	margin: auto;
+	padding-top: 
+}
+
+.contimgmain img{
+	width: 100%;
+	
+} 
+
+.textmain{
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+.contblog{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 40px;
+}
+
+
+.artblog{
+	width: 25%;
+	border: 1px solid black;
+	height: 560px;
+
+}
+
+
+.artblog img{
+	width: 100%;
+}
+
+
+.artblog span{
+	color: #338DFF;
+	font-size: 15px;
+}
+
+
+.textblog{
+	padding : 10px;
+	padding-right: 10px;
+	font-weight: bold;
+
+}
+
+
+.textblog  a {
+	text-align: center;
+	text-decoration: none;
+	background: #338DFF;
+	padding: 10px 91px;
+	font-size: 15px;
+	color: white;
+	display: flex;
+	
+}
+
+.sectrecom {
+ 	text-align: center;
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;
+}
+
+
+.contrecom{
+ 	width: 50%;
+ 	margin: auto;
+}
+
+
+.pie {
+	border-top: solid 3px  #338DFF;
+	padding: 20px;
+}
+
+
+.contpie {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.nom{
+	color: #338DFF;
+}
+
+
+
+
+
+
+
+
+
+
+.contnosotros{
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 40px;
+}
+
+.artnosotros{
+	width: 80%;
+	height: 520px;
+
+}
+
+
+.nosotros img{
+	display: all;
+	width: 32%;
+	margin: auto;
+	justify-content: space-between;
+
+}
+
+.textnoso{
+	width: 100%;
+}
+
+.textnoso p{
+	width: 100%;
+	margin: auto; 
+}
+
+
+
+.contnuest{
+	width: 80%;
+    height: 500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
+}
+
+.nuest{
+	width: 35%;
+	display: all;
+	margin: auto;
+	justify-content: space-between;
+	margin-top: 35px;
+
+}
+
+
+.nuest img{
+	width:93%;
+	display: all;
+	margin: auto;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+.contmain2{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 30px;
+}
+
+
+.artimain2{
+	width: 80%;
+	margin: auto;
+
+}
+
+.contimgmain2{
+	width: 100%;
+	margin: auto;
+	padding-top: 
+}
+
+.contimgmain2 img{
+	width: 100%;
+	height: 450px;
+
+	
+} 
+
+.textmain2{
+	width: 100%;
+	padding-top: : 20px;
+}
+
+
+.textmain2 h3{
+	font-size: 23px;
+}
+
+.textmain2 p{
+	text-align: justify;
+}
+
+.textmain2 span{
+	color: black;
+	margin-left: 30px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.body{
+	background: url(images/fondo.jpg);
+	-webkit-background-size: cover;
+	background-size: cover; : 
+	background-attachment: fixed;
+}
+
+.contenedor1 .form  .form-header  .form-tittle{
+		font-weight: normal;
+		font-family: sans-serif;
+		color: #338DFF;
+		text-align:center;
+		padding: 14px 0;
+		
+
+}
+
+.contenedor1 .form  .form-header  .form-tittle   span{
+		color:#fff;
+		text-align:center;
+		padding: 14px 0;
+		padding-top: 30px;
+		font-size: 18px;
+
+}
+
+
+.contenedor1  .form{
+	background: rgb(0,0,0,.6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+}
+
+.contenedor1 .form  .form-label{
+	display: block;
+	color: #338DFF;
+	font-size: 16px;
+	position: relative;
+}
+
+.contenedor1 .form  .form-input, .form-textarea{
+		background:rgba(0,0,0.7);
+		border:none;
+		outline:none;
+		border-bottom: 2px solid #338DFF ;
+		width:100%;
+		padding:12px;
+		margin-bottom: 20px;
+		border-radius: 2px;
+		font-size: 14px;
+		color: #fff;
+
+}
+
+.contenedor1 .form  .form-textarea{
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+
+.contenedor1 .form .btn-submit{
+	width: 100%;
+	outline: none;
+	background: #338DFF ;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all, .5s ease;
+}
+
+
+.contenedor1 .form .btn-submit:hover{
+	color: #338DFF;
+}
+
+
+
+.pie1 {
+	border-top: solid 3px  #338DFF;
+	padding: 17px;
+	background: #fff;
+}
+
+
+
+
+
+.body1{
+  font-family: 'Jomhuria', cursiva;
+  font-weight: 300;
+  color:white;
+}
+
+.bg-dark{
+	background-color: #16191c;
+}
+
+.bg-dark-x{
+	background-color: #16191c;
+}
+
+.form-control, .btn {
+	min-height: 3.125rem,
+	line-height:initial;
+
+}
+
+.img-1{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sena_Colombia_logo.svg/1200px-Sena_Colombia_logo.svg.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.img-2{
+	background-image: url("https://marandua.com.co/wp-content/uploads/2019/12/SENA-GUAVIARE-NUEVAS-INSTALACIONES-3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.img-3{
+	background-image: url("https://tse1.mm.bing.net/th?id=OIP.11FqrRlO9fNO3U7THtddLAHaJQ&pid=Api&P=0&w=300&h=300");
+	background-size: cover;
+	background-position: center;
+}
+
+.icono{
+	width: 35px;
+	height: 30px;
+}
+
+
+
+
+// Formulario//
+
